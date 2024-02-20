@@ -1,0 +1,123 @@
+/* Write some CSS below */
+body{
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
+}
+h1{
+	font-family: Chivo;
+	color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+	font-family: Chivo;
+	color: #007bff;
+    font-size: 24px;
+    margin-bottom: 10px
+
+}
+
+a{
+	color:#FFB6C1;
+	font-weight: bold;
+	text-decoration: none;
+	transition: .6;
+}
+
+a:hover{
+	color:#CE2FAE
+}
+
+.banner {
+    width: 100%;
+    background-color: #FFB6C1;
+    color: #fff;
+    padding: 10px 0;/* Espacement intérieur haut et bas */
+    font-weight: bold; /* Poids de la police */
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+.tab {
+            overflow: hidden;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+p {
+    color: #666;
+    text-align: center;
+}
+.tab {
+            overflow: hidden;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 20px;
+        }
+        .tab button {
+            background-color: #f8f9fa;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: 0.3s;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .tab button:hover {
+            background-color: #e9ecef;
+        }
+        .tab button.active {
+            background-color: #007bff;
+            color: #ffffff;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border: 1px solid #cccccc;
+            border-radius: 0 0 10px 10px;
+        }
+        .tabcontent.show {
+            display: block;
+        }
+
+.cta-btn {
+    display: block;
+    width: 200px;
+    margin: 40px auto;
+    padding: 10px;
+    text-align: center;
+    color:#ffffff;
+    background-color: #FFB6C1;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.feature {
+    margin-top: 30px;
+    display:flex;
+    align-items:normal;
+}
+.feature img {
+    width: 200px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
